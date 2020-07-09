@@ -51,9 +51,27 @@ h1 {
 	margin-right: 10px; 
 } 
 
+.left_arm:hover {
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
 .right_arm { 
 	margin-left: 10px; 
 } 
+
+.right_arm:hover {
+	-webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
 
 .torso { 
 	width: 200px; 
@@ -90,6 +108,15 @@ h1 {
 .right_leg { 
 	margin-left: 30px; 
 }
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
 
 .left_eye, .right_eye { 
 	width: 20px; 
